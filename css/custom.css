@@ -1,0 +1,63 @@
+body {
+background-image: url("../imgs/landing.jpeg");
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+
+/* landing page */
+
+#name {
+  text-align: center;
+  margin: auto;
+  padding-top: 10%;
+
+}
+
+#name h1 {
+  font-size: 70px;
+}
+
+#roles {
+  text-align: center;
+  margin: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.centeredBtn {
+  margin: auto;
+  text-align: center;
+}
+
+#enterBtn {
+  text-align: center;
+  margin: auto;
+  border-radius: 0;
+  font-size: 38px;
+}
+
+.socialContainer {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding-top: 10%;
+}
+
+
+.landingSocialIcon {
+  font-size: 100px;
+  color: #1d76de;
+}
+
+
+/* home */
+
+
+.navbar-brand {
+  font-size: 30pt;
+}
+
+.navbar-nav li a {
+  font-size: 20pt;
+}
