@@ -1,9 +1,8 @@
 body {
-background-image: url("../imgs/landing.jpeg");
-background-repeat:no-repeat;
-background-size:cover;
+  background-image: url("../imgs/landing.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 
 /* landing page */
 
@@ -11,53 +10,96 @@ background-size:cover;
   text-align: center;
   margin: auto;
   padding-top: 10%;
-
 }
-
 #name h1 {
   font-size: 70px;
 }
-
 #roles {
   text-align: center;
   margin: auto;
   padding-top: 5%;
   padding-bottom: 5%;
 }
-
 .centeredBtn {
   margin: auto;
   text-align: center;
 }
-
 #enterBtn {
   text-align: center;
   margin: auto;
   border-radius: 0;
   font-size: 38px;
 }
-
 .socialContainer {
   width: 70%;
   margin: auto;
   text-align: center;
   padding-top: 10%;
 }
-
-
 .landingSocialIcon {
   font-size: 100px;
   color: #1d76de;
 }
 
-
 /* home */
-
 
 .navbar-brand {
   font-size: 30pt;
 }
-
 .navbar-nav li a {
   font-size: 20pt;
+}
+img {
+  background-color: rgb(208, 217, 224);
+  border-radius: 10px;
+  width: 50%;
+  height: 50%;
+  margin: 50px;
+
+}
+
+/*me*/
+
+.jumbotron h2 {
+  text-align: left;
+  padding-left: 30px;
+
+}
+.aboutMe {
+  float: none;
+  margin: 0;
+  text-align: center;
+  display: inline-block;;
+
+}
+
+.aboutDiv {
+  float: none;
+  background-color: rgb(208, 217, 224);
+  width: 30%;
+  text-align: center;
+  margin: 20px;;
+  display: inline-block;
+  border-radius: 10px;
+
+
+}
+
+
+/*future*/
+
+.futureDiv {
+  float: none;
+  background-color: rgb(208, 217, 224);
+  width: 30%;
+  text-align: center;
+  margin: 20px;;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+/*contact*/
+
+.contactBody {
+  background-color: rgb(208, 217, 224);
 }

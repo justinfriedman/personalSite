@@ -1,0 +1,21 @@
+.navbar-brand {
+  font-size: 30pt;
+}
+.navbar-nav li a {
+  font-size: 20pt;
+}
+
+.contactBody {
+  background-color: rgb(208, 217, 224);
+}
+
+.centeredBtn {
+  margin: auto;
+  text-align: center;
+}
+#enterBtn {
+  text-align: center;
+  margin: auto;
+  border-radius: 0;
+  font-size: 38px;
+}

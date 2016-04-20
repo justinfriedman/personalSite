@@ -10,7 +10,7 @@
 
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/custom.css" rel="stylesheet">
+  <link href="css/contact.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -21,7 +21,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body class="contactBody">
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -38,10 +38,10 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li><a href="me.html">Who I am</a></li>
+          <li><a href="me.html">Who I am </a></li>
           <li><a href="past.html">What I've Done</a></li>
           <li><a href="future.html">Where I'm Going</a></li>
-          <li><a href="contact.html">Contact Me</a></li>
+          <li class="active"><a href="contact.html">Contact Me<span class="sr-only">(current)</span></a></li>
 
         </ul>
         <ul class="nav navbar-nav navbar-right">
@@ -55,20 +55,43 @@
     </div>
     <!-- /.container-fluid -->
   </nav>
+  <h2> Get In Touch!</h2>
+  <form action="https://formspree.io/justin.friedman@wustl.edu"
+      method="POST">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+</form>
 
+  <div class="contactInfo">
+    <div class="col-md-4">
+      <h2>Snail Mail</h2>
+      <img src="imgs/snail.png" />
+      <h3>Justin Friedman, Box 5962, 6515 Wydown Blvd. St. Louis, MO 63105</h3>
+    </div>
+    <div class="col-md-4">
+      <h2>Email</h2>
+      <img src="imgs/email.png" />
+      <h3><a href="justin.friedman@wustl.edu">Justin.Friedman@wust.edu</a> <br />Or<br /><a href="justinfriedman22@gmail.com">JustinFriedman22@gmail.com</a></h3>
 
-  <div class="tileContainer">
-    <div class="col-md-6" class="tile"><a href="#"><img src="imgs/me.png"></a></div>
-    <div class="col-md-6" class="tile"><a href="#"><img src="imgs/projects.png"></a></div>
+    </div>
+    <div class="col-md-4">
+      <h2>LinkedIn</h2>
+      <img src="imgs/linkedin.png" />
+      <h2><a href="linkedin.com/justinfriedman22">Profile</a></h2>
+    </div>
   </div>
-  <div class="tileContainer">
-    <div class="col-md-6" class="tile"><a href="#"><img src="imgs/future.png"></a></div>
-    <div class="col-md-6" class="tile"><a href="#"><img src="imgs/email.png"></a></div>
+  <div class="centeredBtn">
+
+    <a href="resume"><button type="button" class="btn btn-lg" id="enterBtn">Resume Download (PDF)</button></a>
+
   </div>
+
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
 </body>
+
 
 </html>
