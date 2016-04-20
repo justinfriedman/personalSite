@@ -19,3 +19,17 @@
   border-radius: 0;
   font-size: 38px;
 }
+
+.icon {
+  font-size: 100pt;
+}
+
+.form {
+  margin: auto;
+width:40%;
+text-align: center;
+}
+
+.round {
+  border-radius: 10px;
+}
