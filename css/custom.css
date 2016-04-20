@@ -58,6 +58,11 @@ img {
 
 }
 
+.tileContainer {
+  margin: auto;
+  text-align: center;
+}
+
 /*me*/
 
 .jumbotron h2 {
@@ -66,15 +71,24 @@ img {
 
 }
 .aboutMe {
-  float: none;
-  margin: 0;
+  margin: auto;
   text-align: center;
-  display: inline-block;;
+  float: none;
 
 }
 
+.tile a h2{
+color:rgb(231, 84, 20);
+font-weight: bold;
+font-size: 50pt;
+
+
+}
+
+
+
 .aboutDiv {
-  float: none;
+  float:none;
   background-color: rgb(208, 217, 224);
   width: 30%;
   text-align: center;
@@ -100,6 +114,6 @@ img {
 
 /*contact*/
 
-.contactBody {
+.contact {
   background-color: rgb(208, 217, 224);
 }

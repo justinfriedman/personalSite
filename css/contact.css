@@ -12,6 +12,8 @@
 .centeredBtn {
   margin: auto;
   text-align: center;
+  width:50%;
+  padding-top: 50px;
 }
 #enterBtn {
   text-align: center;
@@ -32,4 +34,13 @@ text-align: center;
 
 .round {
   border-radius: 10px;
+}
+
+.contactInfo {
+  margin: auto;
+  text-align: center;
+}
+
+.RB {
+  margin-top:50px;
 }
