@@ -1,4 +1,4 @@
-body {
+#indexBody {
   background-image: url("../imgs/landing.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,11 +50,11 @@ body {
   font-size: 20pt;
 }
 img {
-  background-color: rgb(208, 217, 224);
+
   border-radius: 10px;
-  width: 50%;
-  height: 50%;
-  margin: 50px;
+  width: 30%;
+  height: 30%;
+  margin: 40px;
 
 }
 
@@ -63,11 +63,14 @@ img {
   text-align: center;
 }
 
+
 /*me*/
 
 .jumbotron h2 {
   text-align: left;
   padding-left: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
 
 }
 .aboutMe {
@@ -87,12 +90,14 @@ font-size: 50pt;
 
 
 
+
+
 .aboutDiv {
   float:none;
   background-color: rgb(208, 217, 224);
-  width: 30%;
+  /*width: 30%;*/
   text-align: center;
-  margin: 20px;;
+  margin: 20px;
   display: inline-block;
   border-radius: 10px;
 
@@ -105,15 +110,46 @@ font-size: 50pt;
 .futureDiv {
   float: none;
   background-color: rgb(208, 217, 224);
-  width: 30%;
+  /*width: 30%;*/
   text-align: center;
   margin: 20px;;
   display: inline-block;
   border-radius: 10px;
 }
 
+.future-item {
+  width: 70%;
+  margin: auto;
+  background-color: rgb(208, 217, 224);
+  border-radius: 20px;
+
+}
+
+.future-item p {
+font-size: 14pt;
+padding-left: 7%;
+padding-right: 7%;
+padding-bottom: 5%;
+}
+
+.future-item h2 {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.future-item img {
+  width: 25%;
+  height: 25%;
+}
+
 /*contact*/
 
 .contact {
   background-color: rgb(208, 217, 224);
+}
+
+.centeredBtn {
+  text-align: center;
+  margin: auto;
+
 }

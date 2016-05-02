@@ -1,0 +1,44 @@
+TA Feedback:
+
+- xs viewport could have a stronger layout, the columns are hard to read in
+  when the page is narrow
+- lacking in quantity of content
+
+
+Jury Feedback:
+
+Just the looks of the site. Some colors are a little weird and it doesn't all
+look super clean. Content is good, just worth spending time on css and colors
+
+I like the consistency of the interface, but I feel like the logos
+(like the glyphicons) are a little bit big and don't necessarily show
+up great on the background.. I think you have good content,
+I would focus on design.
+
+Work on more consistent formatting with color scheme and such!
+Make the text a little easier to read!
+
+But good job.
+
+
+What I'm Going to Do:
+
+I need to work on design, colors, backgrounds and icon size. I also need to work on
+the xs view port. I know it was an issue the first time so I need to get it
+right this time around
+
+Jury liked content but TA wanted more. The content I currently have is all I want about me on a professionally focused site so I’m not going to add much else. 
+
+One of the main themes in the TA and Jury feedback was that I needed to tighten
+up my design and thematic coloring. I'm going to do this by better finishing the
+colors, corner radius and backgrounds. 
+
+On my home page I’m going to make the orange text easier to read on the background. 
+
+On my what I’ve done page I’m going to focus on getting the content to display well in xs viewports. 
+
+On my where I’m going page I’m going to work out issues with column display in all viewports and make the content more reader friendly. 
+
+For my contact page I’m just going to change the styling a little bit. 
+
+Throughout the entire site I’m going to fix viewport issues, color matching and general readability style issues. 
